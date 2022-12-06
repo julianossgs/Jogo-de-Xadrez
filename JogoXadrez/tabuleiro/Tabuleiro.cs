@@ -18,5 +18,11 @@ namespace tabuleiro
             Colunas=colunas;
             pecas = new Peca[Linhas,Colunas];
         }
+
+        //Método p/ acesso a matriz Peça
+        public Peca peca(int linha,int coluna)
+        {
+            return pecas[linha,coluna];
+        }
     }
 }
