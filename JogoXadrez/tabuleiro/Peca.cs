@@ -18,8 +18,8 @@ namespace tabuleiro
         {
             this.posicao=posicao;
             this.cor=cor;
-            this.tabuleiro=tab;
-            this.qteMovimentos=0;
+            tabuleiro=tab;
+            qteMovimentos=0;
         }
     }
 }
