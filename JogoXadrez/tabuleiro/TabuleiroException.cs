@@ -8,9 +8,12 @@ namespace tabuleiro
 {
     internal class TabuleiroException
     {
-        public TabuleiroException(string msg) : base()
+        public TabuleiroException(string msg)
         {
 
         }
+
+       
+
     }
 }
